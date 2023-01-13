@@ -1,3 +1,4 @@
+# PRIMERA ENTREGA M2
 # ENTREGA PORTAFOLIO M2: Ecommerce para tienda de lentes de sol.
 
 ## Cuenta GitHub: este repositorio permitirá ver y actualizar el código
@@ -12,3 +13,7 @@
 ## página "pexels": para la extracción de imágenes para la tienda.
 
 ## Fontawesome: para extraer las imágenes de iconos
+
+## SEGUNDA ENTREGA M3: CARRITO DE COMPRAS
+
+## uso de Javascript para crear la lógica completa del carrito de compras 
