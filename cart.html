@@ -59,34 +59,39 @@
 
     <!--PRODUCTOS-->
 
-    <section id="productos-carrito">
-      <h2 class="text-center mt-5">Resumen de la compra</h2>
+    <main class="container">
+      <section id="productos-carrito">
+        <h1 class="text-center my-5">RESUMEN DE LA COMPRA</h1>
 
-      <!--CARGAR PRODUCTOS DE FORMA DINAMICA-->
-      <div class="row">
-        <table class="table mx-auto" style="width:auto">
+        <div class="d-flex justify-content-end">
+          <button class="btn btn-danger" id="btn-vaciar">Vaciar carrito</button>
+        </div>
+        
+        <div class="row">
+          <table class="table">
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">sku</th>
-                <th scope="col">NOMBRE</th>
+                <th scope="col">SKU</th>
+                <th scope="col">Nombre</th>
                 <th scope="col">Precio normal</th>
                 <th scope="col">Descuento</th>
-                <th scope="col">Precio unitario</th>
-                <th scope="col">Precio cantidad</th>
+                <th scope="col">Precio Unitario</th>
+                <th scope="col">cantidad</th>
                 <th scope="col">Precio total</th>
               </tr>
             </thead>
-
             <tbody>
-                
-      <!--CARGAR PRODUCTOS DE FORMA DINAMICA-->
-              
+              <!-- CARGAR PRODUCTOS DE FORMA DINAMICA -->
             </tbody>
           </table>
-
-      </div>
-    </section>
+          <label for="cupon"><strong>Cupon descuento:</strong></label>
+          <input type="text" name="cupon" id="input-cupon">
+          <button id="btn-descuento" class="btn btn-success my-2">Aplicar descuento</button>
+          <p id="precio-total" class="text-end"></p>
+        </div>
+      </section>
+    </main>
 
   
 
