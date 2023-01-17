@@ -138,7 +138,7 @@ document
       }
     })
     actualizarCarro(productosCarro);
-    cargarTablaProductos();
+    cargarTablaProdutos();
   }
 
 
@@ -156,5 +156,5 @@ document
       }
     })
     actualizarCarro(productosCarro);
-    cargarTablaProductos();
+    cargarTablaProdutos();
   }
